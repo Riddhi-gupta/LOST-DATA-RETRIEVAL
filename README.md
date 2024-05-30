@@ -1,30 +1,28 @@
 # LOST-DATA-RETRIEVAL
 RecoverPy is a powerful tool that leverages your system capabilities to recover lost files.  • Unlike others, you can not only recover deleted files but also overwritten data.  • Every block of your partition will be scanned. You can even find a string in binary files. 
 # Key Features
-# Comprehensive Data Recovery: Supports retrieval of lost data from hard drives, SSDs, USB drives, and other storage media.
-# User-Friendly Interface: Built using the textual library to provide an intuitive and interactive terminal-based user interface.
-# Automated Dependency Management: Ensures all necessary dependencies are installed and up-to-date, enhancing user experience and minimizing setup complexities.
-# Detailed Logging: Implements robust logging mechanisms to track the recovery process, providing valuable insights and troubleshooting information.
-# Modular Design: Utilizes a modular approach, making it easy to extend and customize for various data recovery scenarios.
+Comprehensive Data Recovery: Supports retrieval of lost data from hard drives, SSDs, USB drives, and other storage media.
+User-Friendly Interface: Built using the textual library to provide an intuitive and interactive terminal-based user interface.
+Automated Dependency Management: Ensures all necessary dependencies are installed and up-to-date, enhancing user experience and minimizing setup complexities.
+Detailed Logging: Implements robust logging mechanisms to track the recovery process, providing valuable insights and troubleshooting information.
+Modular Design: Utilizes a modular approach, making it easy to extend and customize for various data recovery scenarios.
 
 # Technical Details
 Technology Stack
-# Python: The primary programming language used for its versatility and extensive library support.
-# Recoverpy: A specialized library for data recovery tasks, providing the core functionalities required for this project.
-# Textual: A modern, asynchronous framework for creating terminal applications, used to build the user interface.
+Python: The primary programming language used for its versatility and extensive library support.
+Recoverpy: A specialized library for data recovery tasks, providing the core functionalities required for this project.
+Textual: A modern, asynchronous framework for creating terminal applications, used to build the user interface.
 
 # Core Components
 Dependency Management
+is_dependency_installed: A helper function to check if the necessary dependencies are installed.
+install_and_push_modal: A function that handles the installation of missing dependencies and provides feedback to the user via a modal interface.
 
-# is_dependency_installed: A helper function to check if the necessary dependencies are installed.
-# install_and_push_modal: A function that handles the installation of missing dependencies and provides feedback to the user via a modal interface.
-Logging
-
-# log: A logging utility to record events, errors, and other relevant information throughout the data recovery process.
+# Logging
+log: A logging utility to record events, errors, and other relevant information throughout the data recovery process.
 User Interface
 
-# App Class: Derived from textual.app.App, this class manages the application lifecycle, including initializing the UI and handling user interactions.
-
+App Class: Derived from textual.app.App, this class manages the application lifecycle, including initializing the UI and handling user interactions.
 
 # How It Works
 Initialization:
